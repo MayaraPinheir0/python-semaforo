@@ -30,4 +30,4 @@ Semáforo básico
 Semáforo com contagem
 Semáforo gráfico
 Cruzamento com 2 semáforos
-Simulação de trânsito simples
+Simulação de trânsito simples# python-semaforo
