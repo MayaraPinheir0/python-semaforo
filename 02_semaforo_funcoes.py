@@ -1,4 +1,5 @@
-# Semáforo com funções. Objetivo: criar um semáforo mais organizado e modular, utilizando funções para cada cor do semáforo. Isso torna o código mais legível e fácil de manter.
+# Semáforo com funções. 
+# Objetivo: criar um semáforo mais organizado e modular, utilizando funções para cada cor do semáforo. Isso torna o código mais legível e fácil de manter.
 
 #1. Importar as bibliotecas
 import time
@@ -10,24 +11,25 @@ def limpar_tela():
 
 #3. Definir a funções do sinal verde, amarelo e vermelho
 def verde():
-    for i in range(5, 0, -1): # A função range(5, 0, -1) gera uma sequência de números começando em 5, terminando antes de 0, e decrementando de 1 em 1.
+    for i in range(10, 0, -1): # A função range(10, 0, -1) gera uma sequência de números começando em 10, terminando antes de 0, e decrementando de 1 em 1.
         limpar_tela() # Chama a função limpar_tela() para limpar a tela antes de exibir a contagem regressiva.
         print("🟢 SEMÁFORO VERDE")
-        print(f"Verde: 🟢 {i} segundos restantes")
+        print(f"Tempo restantes: 🟢 {i} segundos")
+        print("🚗 Carros podem passar")
         time.sleep(1)
 
 def amarelo():
     for i in range(3, 0, -1):
         limpar_tela()
         print("🟡 SEMÁFORO AMARELO")
-        print(f"Amarelo: 🟡 {i} segundos restantes")
+        print(f"Tempo restantes: 🟡 {i} segundos")
         time.sleep(1)
 
 def vermelho():
-    for i in range(5, 0, -1):
+    for i in range(7, 0, -1):
         limpar_tela()
         print("🔴 SEMÁFORO VERMELHO")
-        print(f"Vermelho: 🔴 {i} segundos restantes")
+        print(f"Tempo restantes: 🔴 {i} segundos")
         time.sleep(1)
 
 
