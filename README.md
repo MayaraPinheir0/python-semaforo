@@ -76,6 +76,7 @@ Exemplo:
 if fluxo > 50
 
 # PARA FIXAR
+# A. Analisar o evento/ objeto
 Escolha algo simples (ex. elevador, ventilador etc.) e pergunte-se:
 
 * O que ele possui?
@@ -83,3 +84,38 @@ Escolha algo simples (ex. elevador, ventilador etc.) e pergunte-se:
 * Quais decisões ele toma?
 
 geralmente abstracao há variaveis, funções e decisões
+
+# B. Desenhe antes de programar
+
+``` flowchart TD
+INÍCIO
+ ↓
+verificar hora
+ ↓
+é madrugada?
+ ↓
+sim → amarelo piscando
+não
+ ↓
+verificar fluxo
+ ↓
+alto?
+ ↓
+verde maior
+ ↓
+amarelo
+ ↓
+vermelho
+```
+
+# C. Explicar o que o código faz em linguagem natural
+# D. Realizar pequenas modificaçoes
+Tente:
+
+mudar tempos
+inverter lógica
+criar novo modo
+adicionar mensagens
+quebrar algo e corrigir
+
+* Programadores aprendem MUITO errando.
